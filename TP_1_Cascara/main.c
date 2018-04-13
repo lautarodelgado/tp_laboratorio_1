@@ -6,14 +6,14 @@ int main()
 {
     char seguir='s';
     int opcion=0;
-    int num1=0;
-    int num2=0;
+    float num1=0;
+    float num2=0;
 
     while(seguir=='s')
     {
             system("cls");
-            printf("1- Ingresar 1er operando (A=%d)\n" , num1);
-            printf("2- Ingresar 2do operando (B=%d)\n" , num2);
+            printf("1- Ingresar 1er operando (A=%.2f)\n" , num1);
+            printf("2- Ingresar 2do operando (B=%.2f)\n" , num2);
             printf("3- Calcular la suma (A+B)\n");
             printf("4- Calcular la resta (A-B)\n");
             printf("5- Calcular la division (A/B)\n");
@@ -29,18 +29,18 @@ int main()
             {
                 case 1:
                     printf("Igrese el primer operando: ");
-                    scanf("%d" , &num1);
+                    scanf("%f" , &num1);
                     break;
                 case 2:
                     printf("Ingrese el segundo operando: ");
-                    scanf("%d" , &num2);
+                    scanf("%f" , &num2);
                     break;
                 case 3:
-                    printf("La suma de los dos operandos es: %d\n" , suma(num1 , num2));
+                    printf("La suma de los dos operandos es: %.2f\n" , suma(num1 , num2));
                     system("pause");
                     break;
                 case 4:
-                    printf("La resta de los dos operandos es: %d\n" , resta(num1 , num2));
+                    printf("La resta de los dos operandos es: %.2f\n" , resta(num1 , num2));
                     system("pause");
                     break;
                 case 5:
@@ -55,7 +55,7 @@ int main()
                     system("pause");
                     break;
                 case 6:
-                    printf("La multiplipacion entre los dos operandos es: %d\n" , multiplicacion(num1 , num2));
+                    printf("La multiplipacion entre los dos operandos es: %.2f\n" , multiplicacion(num1 , num2));
                     system("pause");
                     break;
                 case 7:
@@ -86,9 +86,9 @@ int main()
                     break;
                 case 8:
                     //suma:
-                    printf("La suma de los dos operandos es: %d\n" , suma(num1 , num2));
+                    printf("La suma de los dos operandos es: %.2f\n" , suma(num1 , num2));
                     //resta:
-                    printf("La resta de los dos operandos es: %d\n" , resta(num1 , num2));
+                    printf("La resta de los dos operandos es: %.2f\n" , resta(num1 , num2));
                     //division:
                     if (num2 == 0)
                     {
@@ -99,7 +99,7 @@ int main()
                         printf("La division entre los dos operandos es: %.2f\n" , division(num1 , num2));
                     }
                     //multiplicacion:
-                    printf("La multiplipacion entre los dos operandos es: %d\n" , multiplicacion(num1 , num2));
+                    printf("La multiplipacion entre los dos operandos es: %.2f\n" , multiplicacion(num1 , num2));
                     //factorial:
                     if(num1 > 12)
                     {

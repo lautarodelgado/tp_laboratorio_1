@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1523399287 source:c:\users\monica\downloads\programacion1y-laboratorio1-master\tp_1_cascara\main.c
+1523619187 source:c:\users\monica\downloads\programacion1y-laboratorio1-master\tp_1_cascara\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
 
-1523398298 c:\users\monica\downloads\programacion1y-laboratorio1-master\tp_1_cascara\funciones.h
+1523647508 c:\users\monica\downloads\programacion1y-laboratorio1-master\tp_1_cascara\funciones.h
 
-1523398298 source:c:\users\monica\downloads\programacion1y-laboratorio1-master\tp_1_cascara\funciones.c
+1523647508 source:c:\users\monica\downloads\programacion1y-laboratorio1-master\tp_1_cascara\funciones.c
 
